@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	
+	<!--
+	Defines a properties file for dereferencing variables
+	-->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+	    <property name="location" value="/WEB-INF/red5-web.properties" />
+	</bean>
+	
+	    
+        
+        
+    <!-- Alarm Conditions -->
+
+	<bean id="scaleOutCondition" class="com.red5pro.services.red5cloudwatch.model.AlarmCondition">
+		<property name="metric" value="CONNECTIONS"/>
+		<property name="unit" value="PERCENTAGE"/>
+		<property name="threshold" value="#{T(java.lang.Integer).parseInt('${autoscale.scaleout.threshold}')}"/>
+		<property name="conditionComparator" value="GREATERTHAN"/>
+	</bean>
+
+
+
+
+	<!-- Alarm Scopes -->
+
+	<bean id="scaleOutScope" class="com.red5pro.services.red5cloudwatch.model.AlarmScope">
+		<property name="scopeType" value="SCALEOUTALARM"/>
+		<property name="condition" ref="scaleOutCondition"/>
+		<property name="action" value="GROUPEDGESCALEOUT"/>
+	</bean>
+
+
+
+	<!-- Alarms Generator -->
+
+	<bean id="alarmGenerator" class="com.red5pro.services.red5cloudwatch.component.CloudWatchAlarmGenerator">
+		<property name="alarmScopes">
+			<list value-type="com.red5pro.services.red5cloudwatch.model.AlarmScope">
+				<ref bean="scaleOutScope" />
+			</list>
+		</property>
+	</bean>
+
+
+
+
+	<!-- Database Management Components -->
+	
+	<bean id="dbConnection" class="com.red5pro.services.streammanager.database.jdbc.sql.SQLTest" init-method="initialize">
+        <property name="url" value="jdbc:mysql://${config.dbHost}:${config.dbPort}/cluster" />
+   		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+   		<property name="username" value="${config.dbUser}" />
+   		<property name="password" value="${config.dbPass}" />
+   		<property name="initialSize" value="0" />
+   		<property name="maxActive" value="30" />
+   		<property name="maxIdle" value="5" />
+    </bean>
+    
+    
+    
+
+    <bean id="dbManager" class="com.red5pro.services.streammanager.database.jdbc.DataManager" init-method="getInstance">
+       <property name="sql" ref="dbConnection"/>
+    </bean>
+
+
+
+
+	<!-- Stream Manager Store -->
+
+	<bean id="streamStore" class="com.red5pro.services.streammanager.components.store.StreamManagerRDSStore" init-method="initialize" depends-on="dbManager">
+
+    </bean>
+
+
+
+
+
+	<!-- Policy Management Components -->
+
+	<bean id="policyOperator" class="com.red5pro.services.autoscaling.components.filesystem.FileSystemScalePolicyOperator" init-method="initialize">
+		<property name="folderName" value="${scalepolicy.store}"/>
+	</bean>
+
+
+	<bean id="policyController" class="com.red5pro.services.autoscaling.components.Red5ScalePolicyController" init-method="initialize">
+		<property name="policyOperator" ref="policyOperator"/>
+	</bean>
+
+
+	<bean id="policyManager" class="com.red5pro.services.autoscaling.components.Red5ScalePolicyManager" init-method="initialize">
+		<property name="policyController" ref="policyController"/>
+		<property name="autoScanMinutesDelay" value="${scalepolicy.filescandelay}"/> <!-- set zero to disable -->
+	</bean>
+	
+	
+	
+	<!-- Launch configuration Management Components -->
+
+	<bean id="launchConfigOperator" class="com.red5pro.services.nodes.component.configuration.filesystem.LaunchConfigurationOperator" init-method="initialize">
+		<property name="folderName" value="${launchconfig.store}"/>
+	</bean>
+
+
+	<bean id="launchConfigController" class="com.red5pro.services.nodes.component.Red5LaunchConfigurationController" init-method="initialize">
+		<property name="configurationOperator" ref="launchConfigOperator"/>
+	</bean>
+
+	<bean id="launchConfigManager" class="com.red5pro.services.nodes.component.Red5LaunchConfigurationManager" init-method="initialize">
+		<property name="configController" ref="launchConfigController"/>
+		<property name="autoScanMinutesDelay" value="${launchconfig.filescandelay}"/> <!-- set zero to disable -->
+	</bean>
+	
+	
+	
+	<!-- Instance Management Components -->
+
+	<!-- GOOGLE COMPUTE CONTROLLER -->
+	<!--
+	<bean id="apiBridge" class="com.red5pro.services.cloud.google.component.ComputeInstanceController" init-method="initialize">
+       <property name="project" value="${compute.project}"/>
+       <property name="defaultZone" value="${compute.defaultzone}"/>
+       <property name="defaultDiskType" value="${compute.defaultdisk}"/>
+       <property name="operationTimeoutMilliseconds" value="${compute.operationTimeoutMilliseconds}"/>
+    </bean>
+    -->
+    
+    
+    
+    <!-- AWS CONTROLLER -->
+    <!--
+    <bean id="apiBridge" class="com.red5pro.services.cloud.aws.component.AWSInstanceController" init-method="initialize">
+       <property name="accessKey" value="${aws.accessKey}"/>
+       <property name="accessSecret" value="${aws.accessSecret}"/>
+       <property name="ec2KeyPairName" value="${aws.ec2KeyPairName}"/>
+       <property name="ec2SecurityGroup" value="${aws.ec2SecurityGroup}"/>
+       <property name="defaultZone" value="${aws.defaultzone}"/>
+	   <property name="defaultVPC" value="${aws.defaultVPC}"/>
+       <property name="operationTimeoutMilliseconds" value="${aws.operationTimeoutMilliseconds}"/>
+    </bean>
+    -->
+    
+    
+    
+    <!-- Default CONTROLLER -->
+    <bean id="apiBridge" class="com.red5pro.services.cloud.sample.component.DummyCloudController" init-method="initialize">
+    
+    </bean>
+      
+    
+     
+    <!-- Red5 Instance Manager Components -->
+    
+	<bean id="instanceManager" class="com.red5pro.services.nodes.component.Red5InstanceController" init-method="initialize" depends-on="streamStore, policyManager, launchConfigManager">
+		<property name="cloudApiController" ref="apiBridge"/>
+		<property name="nodePingTimeThreshold" value="${instancecontroller.nodePingTimeThreshold}"/>
+		<property name="newNodePingTimeThreshold" value="${instancecontroller.newNodePingTimeThreshold}"/>
+		<property name="replaceDeadClusters" value="${instancecontroller.replaceDeadClusters}"/>
+		<property name="deleteDeadGroupNodesOnCleanUp" value="${instancecontroller.deleteDeadGroupNodesOnCleanUp}"/>
+		<property name="deadNodesCheckUpInterval" value="${instancecontroller.deadNodesCheckUpInterval}"/>
+		<property name="instanceNamePrefix" value="${instancecontroller.instanceNamePrefix}"/>
+	</bean>
+
+
+
+
+	<!-- Autoscaler Components -->
+
+	<bean id="autoScaler" class="com.red5pro.services.autoscaling.components.Red5AutoScaleManager" init-method="initialize" depends-on="instanceManager, streamStore, policyManager, launchConfigManager">
+		<property name="store" ref="streamStore"/>
+		<property name="instanceManager" ref="instanceManager"/>
+		<property name="configManager" ref="launchConfigManager"/>
+		<property name="policyManager" ref="policyManager"/>
+	</bean>
+	
+
+
+
+
+	<!-- Simple REST security configuration for administrator -->
+
+	<bean id="restTokenAuthenticator" class="com.red5pro.services.streammanager.rest.security.RestTokenAuthenticator">
+		<property name="administratorToken" value="${rest.administratorToken}"/>
+	</bean>
+
+
+	<bean id="authFilter" class="com.red5pro.services.streammanager.rest.filters.Authenticationfilter">
+		<property name="tokenAuthenticator" ref="restTokenAuthenticator"/>
+	</bean>    
+ 
+</beans>

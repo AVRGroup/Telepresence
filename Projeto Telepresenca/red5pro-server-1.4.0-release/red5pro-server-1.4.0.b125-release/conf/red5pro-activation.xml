@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.0.xsd 
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	 	
+	<bean id="red5.pro.secondscreen.datamanager" name="red5.pro.secondscreen.datamanager" lazy-init="true" 
+		class="com.red5pro.server.secondscreen.session.DataManager">
+	</bean>
+	
+	
+ 	<bean id="red5.pro.secondscreen.clientNotificationService" name="red5.pro.secondscreen.clientNotificationService" lazy-init="true" 
+ 		class="com.red5pro.server.secondscreen.session.ClientNotificationService">
+ 	</bean>
+	 
+	 <bean name="configuration" id="configuration" class="com.red5pro.activation.Red5ProConfiguration">
+	 	<property name="rtsp" value="true"/>
+	 	<property name="secondscreen" value="true"/>
+	 	<property name="websockets" value="true"/>
+	 	<property name="rtspPort" value="8554"/>
+	 	<property name="secondScreenPort" value="8088"/>
+	 	<property name="websocketPort" value="6262"/>
+	 	<property name="enableRecording" value="true"/>
+	 </bean>
+ 
+</beans>

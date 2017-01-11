@@ -1,0 +1,12 @@
+Como colocar o servidor online?
+
+- Abra o terminal do Windows nessa pasta e digite o comando "node sendservernum.js" (servidor para sensor) ou "node sendserverchar.js"(servidor para botões).
+Se a conexão for aberta com sucesso, as informações da conexão aparecerão no terminal.
+Caso a conexão falhe, verifique no codigo do servidor se está tentando acessar a porta correta(Recomendo usar o Notepad++). 
+Não delete a pasta "node_modules", pois ela possui componentes necessários para o funcionamento do servidor.
+----------------------------------------------------------------------------------------------------------------------------------------
+Os codigos arduino para controle dos motores se encontram nas pastas "SensorControl" e "ButtonControl".
+
+Os aplicativos estão nas pastas "SendSensor" e "SendButtons".
+
+Para maiores informações sobre esses dois, veja comentarios dentro do prórpio codigo.

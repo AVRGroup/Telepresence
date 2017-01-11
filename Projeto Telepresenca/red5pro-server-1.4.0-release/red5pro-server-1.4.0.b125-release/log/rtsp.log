@@ -1,0 +1,210 @@
+2016-12-14 15:42:56,498 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 2 total sessions: 1
+2016-12-14 15:42:57,571 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:42:57,618 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:42:57,646 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:42:57,647 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:43:11,945 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 2 current session count: 1
+2016-12-14 15:44:34,655 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 3 total sessions: 1
+2016-12-14 15:44:34,702 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:44:34,711 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:44:34,712 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:44:34,715 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:45:12,223 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 3 current session count: 1
+2016-12-14 15:45:59,016 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 4 total sessions: 1
+2016-12-14 15:45:59,447 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:45:59,457 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:45:59,473 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:45:59,477 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:47:31,363 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 4 current session count: 1
+2016-12-14 15:47:47,367 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 5 total sessions: 1
+2016-12-14 15:47:47,758 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:47:47,775 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:47:47,786 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:47:47,803 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:48:19,978 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 5 current session count: 1
+2016-12-14 15:48:25,741 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 6 total sessions: 1
+2016-12-14 15:48:25,793 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:48:25,804 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:48:25,836 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:48:25,873 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:49:19,793 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 6 current session count: 1
+2016-12-14 15:50:07,336 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 7 total sessions: 1
+2016-12-14 15:50:07,413 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:50:07,421 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:50:07,431 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:50:07,439 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:50:08,720 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 7 current session count: 1
+2016-12-14 15:50:10,099 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 8 total sessions: 1
+2016-12-14 15:50:10,128 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:50:10,130 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:50:10,133 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:50:10,134 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:51:10,004 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 8 current session count: 1
+2016-12-14 15:51:25,892 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 9 total sessions: 1
+2016-12-14 15:51:25,960 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:51:25,967 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:51:25,969 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:51:25,972 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:52:04,791 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 10 total sessions: 2
+2016-12-14 15:52:04,835 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:52:04,845 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:52:04,850 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:52:04,852 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:53:06,714 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 10 current session count: 2
+2016-12-14 15:53:32,185 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 9 current session count: 1
+2016-12-14 15:53:39,635 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 11 total sessions: 1
+2016-12-14 15:53:39,778 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:53:39,809 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:53:39,825 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:53:39,846 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:53:40,616 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 11 current session count: 1
+2016-12-14 15:53:41,575 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 12 total sessions: 1
+2016-12-14 15:53:41,637 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:53:41,638 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:53:41,640 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:53:41,641 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:55:00,715 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 12 current session count: 1
+2016-12-14 15:55:05,114 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 13 total sessions: 1
+2016-12-14 15:55:05,171 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:55:05,182 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:55:05,187 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:55:05,188 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:58:53,404 [NioProcessor-34] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Unexpected exception for session: 13
+java.io.IOException: Foi forçado o cancelamento de uma conexão existente pelo host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1104)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-12-14 15:58:53,422 [NioProcessor-34] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Force close - session: 13
+2016-12-14 15:58:53,460 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 13 current session count: 1
+2016-12-14 15:58:53,475 [NioProcessor-34] INFO  c.r.s.s.rtsp.RTSPMinaConnection - Connection is closed: 2P2QWDPOEQELG
+2016-12-14 15:58:53,484 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 13 current session count: 0
+2016-12-14 15:59:48,823 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 14 total sessions: 1
+2016-12-14 15:59:49,246 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:59:49,275 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:59:49,396 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:59:49,442 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:00:03,614 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 14 current session count: 1
+2016-12-14 16:00:08,742 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 15 total sessions: 1
+2016-12-14 16:00:08,815 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:00:08,817 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:00:08,821 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:00:08,829 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:00:16,969 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 15 current session count: 1
+2016-12-14 16:00:51,846 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 16 total sessions: 1
+2016-12-14 16:00:51,890 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:00:51,892 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:00:51,893 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:00:51,894 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:01:27,570 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 16 current session count: 1
+2016-12-14 16:01:53,478 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 18 total sessions: 1
+2016-12-14 16:01:53,516 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:01:53,517 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:01:53,518 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:01:53,520 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:01:54,859 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 19 total sessions: 2
+2016-12-14 16:01:54,886 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:01:54,887 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:01:54,892 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:01:54,895 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:02:47,536 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 19 current session count: 2
+2016-12-14 16:03:06,493 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 18 current session count: 1
+2016-12-14 16:03:09,569 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 20 total sessions: 1
+2016-12-14 16:03:09,740 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:03:09,741 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:03:09,742 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:03:09,743 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:03:09,770 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 20 current session count: 1
+2016-12-14 16:03:25,880 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 22 total sessions: 1
+2016-12-14 16:03:25,937 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:03:25,938 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:03:25,950 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:03:25,952 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:03:34,888 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 23 total sessions: 2
+2016-12-14 16:03:34,940 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:03:34,951 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:03:34,954 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:03:34,963 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:04:17,393 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 22 current session count: 2
+2016-12-14 16:05:01,333 [NioProcessor-35] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Unexpected exception for session: 23
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1104)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-12-14 16:05:01,340 [NioProcessor-35] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Force close - session: 23
+2016-12-14 16:05:01,342 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 23 current session count: 1
+2016-12-14 16:05:01,351 [NioProcessor-35] INFO  c.r.s.s.rtsp.RTSPMinaConnection - Connection is closed: PONFRBQ0B5FD6
+2016-12-14 16:05:01,362 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 23 current session count: 0
+2016-12-14 16:05:53,274 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 24 total sessions: 1
+2016-12-14 16:05:53,432 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:05:53,440 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:05:53,442 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:05:53,444 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:03,792 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 24 current session count: 1
+2016-12-14 16:07:08,155 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 25 total sessions: 1
+2016-12-14 16:07:08,291 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:08,301 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:08,303 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:08,308 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:10,263 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 25 current session count: 1
+2016-12-14 16:07:14,114 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 26 total sessions: 1
+2016-12-14 16:07:14,173 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:14,175 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:14,176 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:14,177 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:27,573 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 27 total sessions: 2
+2016-12-14 16:07:27,601 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:27,606 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:27,608 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:27,609 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:54,852 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 27 current session count: 2
+2016-12-14 16:07:55,891 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 28 total sessions: 2
+2016-12-14 16:07:55,922 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:55,923 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:55,928 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:55,929 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:08:00,029 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 28 current session count: 2
+2016-12-14 16:08:08,161 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 29 total sessions: 2
+2016-12-14 16:08:08,205 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:08:08,208 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:08:08,210 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:08:08,213 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:08:41,521 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 29 current session count: 2
+2016-12-14 16:09:32,835 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 26 current session count: 1
+2016-12-14 16:09:52,035 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 30 total sessions: 1
+2016-12-14 16:09:52,259 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:09:52,269 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:09:52,275 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:09:52,277 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:09:54,560 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 30 current session count: 1
+2016-12-14 16:09:58,349 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 31 total sessions: 1
+2016-12-14 16:09:58,407 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:09:58,411 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:09:58,413 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:09:58,415 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:11:05,398 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 31 current session count: 1

@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "name": "default",
+        "description": "This is a sample scale policy file",
+        "version": "0.0.1",
+        "type": "com.red5pro.services.autoscaling.model.ScalePolicy",
+        "origin": {
+            "_required": "false"
+        },
+        "edge": {
+            "coolDownPeriod": "180000",
+            "esitmatedWarmUpTime": "120000",
+            "minLimit": "1",
+            "maxLimit": "3",
+            "scaleAdjustment": "1",
+            "_required": "true"
+        }
+    }
+}

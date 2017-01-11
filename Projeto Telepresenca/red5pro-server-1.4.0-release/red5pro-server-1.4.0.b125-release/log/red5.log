@@ -1,0 +1,605 @@
+2016-12-14 15:39:04,160 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.8 (https://github.com/Red5)
+2016-12-14 15:39:06,816 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2016-12-14 15:39:06,831 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => C:/Users/Lab3_R1/Desktop/red5pro-server-1.4.0-release/red5pro-server-1.4.0.b125-release/webapps/red5-default.xml
+2016-12-14 15:39:07,175 [main] INFO  com.red5pro.license.LicenseManager - Your are running as a developer and your connection limit will be set to 10
+2016-12-14 15:39:07,191 [main] INFO  com.red5pro.license.LicenseManager - If you would like to run the Professional version, please purchase a license key at https://account.red5pro.com/
+2016-12-14 15:39:07,191 [main] INFO  com.red5pro.license.LicenseManager - Once you purchase a license, place the 'LICENSE.KEY' file in the Red5Pro root directory
+2016-12-14 15:39:07,191 [main] INFO  com.red5pro.license.LicenseManager - LICENSE.KEY: null
+2016-12-14 15:39:07,191 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: com.red5pro.clustering.autoscale.AutoScale
+2016-12-14 15:39:07,238 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: com.red5pro.media.storage.CloudstoragePlugin
+2016-12-14 15:39:07,253 [main] INFO  c.r.cluster.plugin.ClusterPlugin - Initiating cluster handler
+2016-12-14 15:39:07,253 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: com.red5pro.cluster.plugin.ClusterPlugin
+2016-12-14 15:39:07,253 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: com.red5pro.stream.transform.mpegts.MPEGTransformPlugin
+2016-12-14 15:39:07,253 [main] INFO  c.red5pro.activation.ProPluginator - Starting Red5 Professional, pluginator version 1.0.9-SNAPSHOT - ${buildNumber} (on: 10.07.2016 14:41)
+2016-12-14 15:39:07,363 [main] INFO  c.red5pro.activation.ProPluginator - Setting recording to enabled, true
+2016-12-14 15:39:07,378 [main] INFO  c.red5pro.activation.ProPluginator - Red5 Professional Activating
+2016-12-14 15:39:07,378 [main] INFO  c.red5pro.activation.ProPluginator - Plugination activation waiting for server to settle...
+2016-12-14 15:39:07,394 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: com.red5pro.activation.ProPluginator
+2016-12-14 15:39:07,394 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2016-12-14 15:39:07,456 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket (ws) will be bound to [0.0.0.0:8081]
+2016-12-14 15:39:07,472 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
+2016-12-14 15:39:17,472 [pool-6-thread-1] ERROR com.red5pro.license.LicenseManager - License check failed
+2016-12-14 15:39:17,472 [pool-6-thread-1] INFO  c.red5pro.activation.ProPluginator - Plugin validation failed 1 times
+2016-12-14 15:39:17,488 [pool-6-thread-1] INFO  c.r.clustering.autoscale.AutoScale - AutoScalePlugin start
+2016-12-14 15:39:21,363 [0.0.0.0-startStop-1] INFO  c.r.s.s.database.jdbc.sql.SQLTest - Database error : Skipping database check since connection details have not been provided correctly
+2016-12-14 15:39:21,503 [0.0.0.0-startStop-1] INFO  c.r.s.a.c.f.FileSystemScalePolicyOperator - Filesystem policy operator init
+2016-12-14 15:39:21,535 [0.0.0.0-startStop-1] INFO  c.r.s.a.c.f.FileSystemScalePolicyOperator - Policy store directory located: C:\Users\Lab3_R1\Desktop\red5pro-server-1.4.0-release\red5pro-server-1.4.0.b125-release\webapps\streammanager\WEB-INF\scalingpolicies
+2016-12-14 15:39:21,628 [0.0.0.0-startStop-1] INFO  c.r.s.n.c.c.f.LaunchConfigurationOperator - Filesystem launch-configuration operator init
+2016-12-14 15:39:21,628 [pool-13-thread-1] INFO  c.r.s.a.c.Red5ScalePolicyManager - Total policies loaded : 1
+2016-12-14 15:39:21,644 [0.0.0.0-startStop-1] INFO  c.r.s.n.c.c.f.LaunchConfigurationOperator - Launch configuration store directory located: C:\Users\Lab3_R1\Desktop\red5pro-server-1.4.0-release\red5pro-server-1.4.0.b125-release\webapps\streammanager\WEB-INF\launchconfigs
+2016-12-14 15:39:21,738 [pool-14-thread-1] INFO  c.r.s.n.c.Red5LaunchConfigurationManager - Total configurations loaded : 3
+2016-12-14 15:39:22,378 [0.0.0.0-startStop-1] INFO  c.r.s.c.s.c.DummyCloudController - Dummy cloud controller initialized
+2016-12-14 15:39:22,394 [0.0.0.0-startStop-1] INFO  c.r.s.r.c.Red5CloudWatchClient - Cloud watch client ready!!
+2016-12-14 15:39:22,394 [0.0.0.0-startStop-1] INFO  c.r.s.s.c.s.StreamManagerRDSStore - Initializing stream manager store
+2016-12-14 15:39:32,597 [pool-6-thread-1] INFO  c.r.clustering.autoscale.AutoScale - Not active
+2016-12-14 15:39:32,972 [pool-6-thread-1] INFO  c.r.cluster.plugin.ClusterPlugin - Origins []
+2016-12-14 15:39:32,972 [pool-6-thread-1] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Starting Red5 Professional, MPEGTransform version 1.0.9-SNAPSHOT - ${buildNumber} (on: 10.07.2016 14:41)
+2016-12-14 15:39:33,175 [pool-6-thread-1] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - HLS config
+	ItemCount 5
+	ItemLength 6
+	ItemThreshold 0.7
+	Disk writing enabled false
+2016-12-14 15:39:33,175 [pool-6-thread-1] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Getting scope default
+2016-12-14 15:39:33,175 [pool-6-thread-1] INFO  c.r.server.stream.plugin.RTPPlugin - Starting RTP plugin version 1.0.9-SNAPSHOT - ${buildNumber} (on: 10.07.2016 14:41)
+2016-12-14 15:39:33,175 [pool-6-thread-1] INFO  c.r.server.stream.plugin.RTPPlugin - RTP plugin port 8554 recording enabled: true
+2016-12-14 15:39:33,566 [pool-6-thread-1] INFO  c.r.s.s.plugin.SecondScreen - Second Screen starting with default context secondscreen
+2016-12-14 15:39:44,506 [0.0.0.0-startStop-1] INFO  ROOT - Starting up context: api
+2016-12-14 15:39:48,009 [pool-4-thread-1] INFO  c.r.cluster.plugin.ClusterPlugin - Starting Cluster, version @(#)1.0.7 - 0035 (on: 25.03.2016 01:50)@
+2016-12-14 15:39:50,466 [0.0.0.0-startStop-1] WARN  c.r.s.a.a.AuthenticationProvider - accessToken value cannot be empty. Please specify a valid 'accessToken' value.
+2016-12-14 15:39:50,919 [main] INFO  o.r.server.service.ShutdownServer - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2016-12-14 15:39:51,220 [Loader:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2016-12-14 15:39:51,287 [Loader:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
+2016-12-14 15:39:51,294 [Loader:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2016-12-14 15:39:51,295 [Loader:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1481737191094, depth=1, enabled=true, running=false]
+2016-12-14 15:39:51,296 [Loader:] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2016-12-14 15:39:51,564 [Loader:/secondscreen] INFO  org.red5.server.Server - Add mapping global: default host:  context: secondscreen
+2016-12-14 15:39:51,624 [Red5_Scheduler_Worker-2] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Adding mpeg-ts scope for secondscreen
+2016-12-14 15:39:51,625 [Red5_Scheduler_Worker-2] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Registered class com.infrared5.red5pro.secondscreen.SecondScreenApplicationAdapter
+2016-12-14 15:39:52,197 [Loader:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2016-12-14 15:39:52,433 [Red5_Scheduler_Worker-4] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Adding mpeg-ts scope for live
+2016-12-14 15:39:52,456 [Red5_Scheduler_Worker-4] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Registered class com.infrared5.red5pro.live.Red5ProLive
+2016-12-14 15:39:52,547 [Loader:/template] INFO  org.red5.server.Server - Add mapping global: default host:  context: template
+2016-12-14 15:39:52,570 [Red5_Scheduler_Worker-6] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Adding mpeg-ts scope for template
+2016-12-14 15:39:52,575 [Red5_Scheduler_Worker-6] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Registered class org.red5.server.adapter.ApplicationAdapter
+2016-12-14 15:39:52,876 [Loader:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2016-12-14 15:39:52,906 [Red5_Scheduler_Worker-8] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Adding mpeg-ts scope for vod
+2016-12-14 15:39:52,916 [Red5_Scheduler_Worker-8] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Registered class com.infrared5.red5pro.vod.Red5ProVod
+2016-12-14 15:39:53,368 [Loader:/api] WARN  c.r.s.a.a.AuthenticationProvider - accessToken value cannot be empty. Please specify a valid 'accessToken' value.
+2016-12-14 15:39:53,376 [Loader:/api] INFO  org.red5.server.Server - Add mapping global: default host:  context: api
+2016-12-14 15:39:53,583 [Loader:/api] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=api, path=/default, type=APPLICATION, autoStart=true, creationTime=1481737193165, depth=1, enabled=true, running=false]
+2016-12-14 15:39:53,584 [Loader:/api] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=default, listeners=1, connections=0]
+2016-12-14 15:39:53,586 [Loader:/api] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2016-12-14 15:39:53,588 [Loader:/api] INFO  o.red5.net.websocket.WebSocketScope - WebSocket app added: api
+2016-12-14 15:39:53,599 [Red5_Scheduler_Worker-10] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Adding mpeg-ts scope for api
+2016-12-14 15:39:53,601 [Red5_Scheduler_Worker-10] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Registered class com.red5pro.services.api.Red5Application
+2016-12-14 15:42:52,067 [RTMPConnectionExecutor-1] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.23.193 c-client-id:0
+2016-12-14 15:42:52,992 [RTMPConnectionExecutor-3] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Starting transform for teste  in  /live
+2016-12-14 15:42:53,250 [pool-5-thread-1] INFO  c.r.s.t.m.e.c.SegmentationEngine - Creating engine, 5 items by 6 seconds
+2016-12-14 15:42:53,315 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@7f706a6d new: org.red5.server.stream.ClientBroadcastStream@7f706a6d
+2016-12-14 15:42:53,351 [pool-5-thread-1] INFO  c.r.s.t.m.e.c.m3u8.TSPlaylist - Setting up hls for teste in /live using: memory
+2016-12-14 15:42:53,439 [RTMPConnectionExecutor-3] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:publish c-ip:10.5.23.193 x-sname:8d348339-1ed6-4200-b6ba-4b34ee9eec63 x-name:teste
+2016-12-14 15:42:53,515 [RTMPConnectionExecutor-3] INFO  c.i.red5pro.live.Red5ProLive - streamBroadcastStart 
+2016-12-14 15:42:56,498 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 2 total sessions: 1
+2016-12-14 15:42:57,571 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:42:57,618 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:42:57,646 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:42:57,647 [Task 10.5.100.130:51724] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:42:57,823 [Task 10.5.100.130:51724] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:1
+2016-12-14 15:42:57,826 [Task 10.5.100.130:51724] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:42:57,949 [Task 10.5.100.130:51724] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  178.28925802879291
+2016-12-14 15:42:58,762 [Task 10.5.100.130:51724] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:42:58,930 [Task 10.5.100.130:51724] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:42:59,346 [pool-22-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:42:59,509 [pool-22-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@716d09a9
+2016-12-14 15:43:11,945 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 2 current session count: 1
+2016-12-14 15:43:11,948 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:1
+2016-12-14 15:43:11,954 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:43:11,959 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 12.72 seconds.
+2016-12-14 15:44:22,895 [pool-15-thread-1] INFO  c.r.s.s.c.s.StreamManagerRDSStore - Running store maintainence
+2016-12-14 15:44:34,655 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 3 total sessions: 1
+2016-12-14 15:44:34,702 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:44:34,711 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:44:34,712 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:44:34,715 [Task 10.5.100.130:51725] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:44:34,720 [Task 10.5.100.130:51725] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:2
+2016-12-14 15:44:34,721 [Task 10.5.100.130:51725] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:44:34,731 [Task 10.5.100.130:51725] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  341.7023603857962
+2016-12-14 15:44:34,764 [Task 10.5.100.130:51725] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:44:34,773 [Task 10.5.100.130:51725] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:44:34,804 [pool-23-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3923c663
+2016-12-14 15:44:34,836 [pool-23-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:45:12,223 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 3 current session count: 1
+2016-12-14 15:45:12,224 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:2
+2016-12-14 15:45:12,226 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:45:12,234 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 37.461 seconds.
+2016-12-14 15:45:59,016 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 4 total sessions: 1
+2016-12-14 15:45:59,447 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:45:59,457 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:45:59,473 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:45:59,477 [Task 10.5.100.130:51726] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:45:59,478 [Task 10.5.100.130:51726] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:3
+2016-12-14 15:45:59,479 [Task 10.5.100.130:51726] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:45:59,489 [Task 10.5.100.130:51726] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  359.7301013141275
+2016-12-14 15:45:59,535 [Task 10.5.100.130:51726] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:45:59,539 [Task 10.5.100.130:51726] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:45:59,567 [pool-24-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@2e63894f
+2016-12-14 15:45:59,575 [pool-24-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:47:31,363 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 4 current session count: 1
+2016-12-14 15:47:31,515 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:3
+2016-12-14 15:47:31,527 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:47:31,767 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 92.227 seconds.
+2016-12-14 15:47:47,367 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 5 total sessions: 1
+2016-12-14 15:47:47,758 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:47:47,775 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:47:47,786 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:47:47,803 [Task 10.5.17.92:41158] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:47:47,807 [Task 10.5.17.92:41158] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:4
+2016-12-14 15:47:47,809 [Task 10.5.17.92:41158] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:47:48,467 [Task 10.5.17.92:41158] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  333.34687306165745
+2016-12-14 15:47:49,470 [Task 10.5.17.92:41158] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:47:49,471 [Task 10.5.17.92:41158] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:47:49,484 [pool-25-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@4b6767aa
+2016-12-14 15:47:49,499 [pool-25-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:48:19,978 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 5 current session count: 1
+2016-12-14 15:48:19,984 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:4
+2016-12-14 15:48:19,986 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:48:19,987 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 30.515 seconds.
+2016-12-14 15:48:25,741 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 6 total sessions: 1
+2016-12-14 15:48:25,793 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:48:25,804 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:48:25,836 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:48:25,873 [Task 10.5.17.92:41159] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:48:25,880 [Task 10.5.17.92:41159] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:5
+2016-12-14 15:48:25,881 [Task 10.5.17.92:41159] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:48:25,895 [Task 10.5.17.92:41159] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  316.0891894086825
+2016-12-14 15:48:25,981 [Task 10.5.17.92:41159] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:48:26,009 [Task 10.5.17.92:41159] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:48:26,020 [pool-26-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@62d66f06
+2016-12-14 15:48:26,173 [pool-26-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:49:19,793 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 6 current session count: 1
+2016-12-14 15:49:19,793 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:5
+2016-12-14 15:49:19,797 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:49:19,798 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 53.787 seconds.
+2016-12-14 15:50:07,336 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 7 total sessions: 1
+2016-12-14 15:50:07,413 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:50:07,421 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:50:07,431 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:50:07,439 [Task 10.5.17.92:41164] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:50:07,441 [Task 10.5.17.92:41164] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:6
+2016-12-14 15:50:07,442 [Task 10.5.17.92:41164] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:50:07,460 [Task 10.5.17.92:41164] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  295.7931368166884
+2016-12-14 15:50:07,507 [Task 10.5.17.92:41164] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:50:07,509 [Task 10.5.17.92:41164] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:50:07,540 [pool-27-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:50:07,562 [pool-27-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@56d5a439
+2016-12-14 15:50:08,720 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 7 current session count: 1
+2016-12-14 15:50:08,720 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:6
+2016-12-14 15:50:08,723 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:50:08,727 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 1.213 seconds.
+2016-12-14 15:50:10,099 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 8 total sessions: 1
+2016-12-14 15:50:10,128 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:50:10,130 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:50:10,133 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:50:10,134 [Task 10.5.17.92:41165] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:50:10,145 [Task 10.5.17.92:41165] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:7
+2016-12-14 15:50:10,145 [Task 10.5.17.92:41165] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:50:10,155 [Task 10.5.17.92:41165] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  294.95004820010945
+2016-12-14 15:50:10,187 [Task 10.5.17.92:41165] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:50:10,205 [Task 10.5.17.92:41165] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:50:10,249 [pool-28-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@74d91b82
+2016-12-14 15:50:10,303 [pool-28-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:51:10,004 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 8 current session count: 1
+2016-12-14 15:51:10,005 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:7
+2016-12-14 15:51:10,007 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:51:10,008 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 59.8 seconds.
+2016-12-14 15:51:25,892 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 9 total sessions: 1
+2016-12-14 15:51:25,960 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:51:25,967 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:51:25,969 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:51:25,972 [Task 10.5.100.130:51727] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:51:25,978 [Task 10.5.100.130:51727] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:8
+2016-12-14 15:51:25,981 [Task 10.5.100.130:51727] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:51:25,988 [Task 10.5.100.130:51727] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  303.0698952108367
+2016-12-14 15:51:26,035 [Task 10.5.100.130:51727] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:51:26,084 [Task 10.5.100.130:51727] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:51:26,136 [pool-29-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:51:26,143 [pool-29-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@77831492
+2016-12-14 15:52:04,791 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 10 total sessions: 2
+2016-12-14 15:52:04,835 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:52:04,845 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:52:04,850 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:52:04,852 [Task 10.5.17.92:41167] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:52:04,853 [Task 10.5.17.92:41167] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:9
+2016-12-14 15:52:04,858 [Task 10.5.17.92:41167] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:52:04,868 [Task 10.5.17.92:41167] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  308.80552160367336
+2016-12-14 15:52:04,904 [Task 10.5.17.92:41167] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:52:04,920 [Task 10.5.17.92:41167] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:52:04,964 [pool-30-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@1cb4fc7b
+2016-12-14 15:52:04,971 [pool-30-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:53:06,714 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 10 current session count: 2
+2016-12-14 15:53:06,717 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:9
+2016-12-14 15:53:06,722 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:53:06,725 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 61.804 seconds.
+2016-12-14 15:53:32,185 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 9 current session count: 1
+2016-12-14 15:53:32,197 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:8
+2016-12-14 15:53:32,203 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:53:32,206 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 126.121 seconds.
+2016-12-14 15:53:39,635 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 11 total sessions: 1
+2016-12-14 15:53:39,778 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:53:39,809 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:53:39,825 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:53:39,846 [Task 10.5.100.130:51728] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:53:39,854 [Task 10.5.100.130:51728] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:10
+2016-12-14 15:53:39,857 [Task 10.5.100.130:51728] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:53:39,871 [Task 10.5.100.130:51728] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  321.0600878353188
+2016-12-14 15:53:39,912 [Task 10.5.100.130:51728] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:53:39,916 [Task 10.5.100.130:51728] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:53:39,929 [pool-31-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@71b9076c
+2016-12-14 15:53:39,990 [pool-31-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:53:40,616 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 11 current session count: 1
+2016-12-14 15:53:40,619 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:10
+2016-12-14 15:53:40,623 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:53:40,625 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 0.709 seconds.
+2016-12-14 15:53:41,575 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 12 total sessions: 1
+2016-12-14 15:53:41,637 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:53:41,638 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:53:41,640 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:53:41,641 [Task 10.5.17.92:41170] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:53:41,643 [Task 10.5.17.92:41170] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:11
+2016-12-14 15:53:41,643 [Task 10.5.17.92:41170] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:53:41,653 [Task 10.5.17.92:41170] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  321.13375263606895
+2016-12-14 15:53:41,708 [Task 10.5.17.92:41170] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:53:41,709 [Task 10.5.17.92:41170] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:53:41,733 [pool-32-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:53:41,740 [pool-32-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3bb580d9
+2016-12-14 15:54:13,579 [pool-6-thread-2] ERROR com.red5pro.license.LicenseManager - License check failed
+2016-12-14 15:54:13,579 [pool-6-thread-2] INFO  c.red5pro.activation.ProPluginator - Plugin validation failed 2 times
+2016-12-14 15:55:00,715 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 12 current session count: 1
+2016-12-14 15:55:00,721 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:11
+2016-12-14 15:55:00,729 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:55:00,730 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 79.019 seconds.
+2016-12-14 15:55:05,114 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 13 total sessions: 1
+2016-12-14 15:55:05,171 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:55:05,182 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:55:05,187 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:55:05,188 [Task 10.5.17.92:41174] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:55:05,190 [Task 10.5.17.92:41174] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:12
+2016-12-14 15:55:05,192 [Task 10.5.17.92:41174] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:55:05,201 [Task 10.5.17.92:41174] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  311.1400869402419
+2016-12-14 15:55:05,278 [Task 10.5.17.92:41174] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:55:05,279 [Task 10.5.17.92:41174] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:55:05,293 [pool-33-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 15:55:05,301 [pool-33-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@31df9357
+2016-12-14 15:58:53,404 [NioProcessor-34] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Unexpected exception for session: 13
+java.io.IOException: Foi forçado o cancelamento de uma conexão existente pelo host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1104)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-12-14 15:58:53,422 [NioProcessor-34] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Force close - session: 13
+2016-12-14 15:58:53,460 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 13 current session count: 1
+2016-12-14 15:58:53,466 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:12
+2016-12-14 15:58:53,469 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 15:58:53,471 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 228.192 seconds.
+2016-12-14 15:58:53,475 [NioProcessor-34] INFO  c.r.s.s.rtsp.RTSPMinaConnection - Connection is closed: 2P2QWDPOEQELG
+2016-12-14 15:58:53,484 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 13 current session count: 0
+2016-12-14 15:59:48,823 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 14 total sessions: 1
+2016-12-14 15:59:49,246 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 15:59:49,275 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 15:59:49,396 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 15:59:49,442 [Task 10.5.17.92:41184] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 15:59:49,445 [Task 10.5.17.92:41184] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.92 c-client-id:13
+2016-12-14 15:59:49,445 [Task 10.5.17.92:41184] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:59:49,489 [Task 10.5.17.92:41184] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  311.5374738572223
+2016-12-14 15:59:49,576 [Task 10.5.17.92:41184] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 15:59:49,601 [Task 10.5.17.92:41184] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 15:59:49,618 [pool-34-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@4a445f86
+2016-12-14 15:59:49,898 [pool-34-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:00:03,614 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 14 current session count: 1
+2016-12-14 16:00:03,620 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.92 c-client-id:13
+2016-12-14 16:00:03,625 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:00:03,630 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 14.025 seconds.
+2016-12-14 16:00:08,742 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 15 total sessions: 1
+2016-12-14 16:00:08,815 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:00:08,817 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:00:08,821 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:00:08,829 [Task 10.5.100.130:51729] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:00:08,830 [Task 10.5.100.130:51729] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:14
+2016-12-14 16:00:08,831 [Task 10.5.100.130:51729] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:00:08,841 [Task 10.5.100.130:51729] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  310.73397803955356
+2016-12-14 16:00:09,045 [Task 10.5.100.130:51729] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:00:09,051 [Task 10.5.100.130:51729] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:00:09,081 [pool-35-thread-2] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3d50ab8
+2016-12-14 16:00:09,105 [pool-35-thread-2] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:00:16,969 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 15 current session count: 1
+2016-12-14 16:00:16,971 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:14
+2016-12-14 16:00:16,974 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:00:16,975 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 7.913 seconds.
+2016-12-14 16:00:51,846 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 16 total sessions: 1
+2016-12-14 16:00:51,890 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:00:51,892 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:00:51,893 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:00:51,894 [Task 10.5.100.130:51730] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:00:51,897 [Task 10.5.100.130:51730] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:15
+2016-12-14 16:00:51,901 [Task 10.5.100.130:51730] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:00:51,909 [Task 10.5.100.130:51730] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  305.5533934490832
+2016-12-14 16:00:51,950 [Task 10.5.100.130:51730] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:00:51,953 [Task 10.5.100.130:51730] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:00:51,959 [pool-36-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@c289734
+2016-12-14 16:00:51,994 [pool-36-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:01:27,570 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 16 current session count: 1
+2016-12-14 16:01:27,571 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:15
+2016-12-14 16:01:27,574 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:01:27,575 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 35.621 seconds.
+2016-12-14 16:01:35,323 [NioProcessor-2] INFO  c.r.s.t.m.BroadcastPipeListener - Stream: teste ended, removing transform
+2016-12-14 16:01:36,004 [NioProcessor-2] INFO  c.r.cluster.plugin.ClusterPlugin - Remove listing: /liveteste
+2016-12-14 16:01:36,005 [NioProcessor-2] INFO  c.r.cluster.plugin.ClusterPlugin - Removed listing: OriginStreamChecker live:teste
+2016-12-14 16:01:36,030 [NioProcessor-2] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:unpublish c-ip:10.5.23.193 cs-bytes:43137390 sc-bytes:3747 x-sname:8d348339-1ed6-4200-b6ba-4b34ee9eec63 x-file-length:1122 x-name:teste
+2016-12-14 16:01:36,033 [NioProcessor-2] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.23.193 c-client-id:0
+2016-12-14 16:01:40,237 [RTMPConnectionExecutor-4] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.23.193 c-client-id:16
+2016-12-14 16:01:40,417 [RTMPConnectionExecutor-2] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Starting transform for teste  in  /live
+2016-12-14 16:01:40,429 [RTMPConnectionExecutor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@7e6ead11 new: org.red5.server.stream.ClientBroadcastStream@7e6ead11
+2016-12-14 16:01:40,430 [pool-5-thread-2] INFO  c.r.s.t.m.e.c.SegmentationEngine - Creating engine, 5 items by 6 seconds
+2016-12-14 16:01:40,451 [pool-5-thread-2] INFO  c.r.s.t.m.e.c.m3u8.TSPlaylist - Setting up hls for teste in /live using: memory
+2016-12-14 16:01:43,069 [RTMPConnectionExecutor-1] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:publish c-ip:10.5.23.193 x-sname:9fcfad19-077f-4377-92ed-302a21425616 x-name:teste
+2016-12-14 16:01:43,123 [RTMPConnectionExecutor-1] INFO  c.i.red5pro.live.Red5ProLive - streamBroadcastStart 
+2016-12-14 16:01:53,478 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 18 total sessions: 1
+2016-12-14 16:01:53,516 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:01:53,517 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:01:53,518 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:01:53,520 [Task 10.5.100.130:51731] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:01:53,521 [Task 10.5.100.130:51731] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:17
+2016-12-14 16:01:53,526 [Task 10.5.100.130:51731] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:01:53,532 [Task 10.5.100.130:51731] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  397.6235384027512
+2016-12-14 16:01:53,570 [Task 10.5.100.130:51731] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:01:53,579 [Task 10.5.100.130:51731] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:01:53,599 [pool-38-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:01:53,622 [pool-38-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@1aac0160
+2016-12-14 16:01:54,859 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 19 total sessions: 2
+2016-12-14 16:01:54,886 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:01:54,887 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:01:54,892 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:01:54,895 [Task 10.5.17.91:47091] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:01:54,900 [Task 10.5.17.91:47091] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:18
+2016-12-14 16:01:54,901 [Task 10.5.17.91:47091] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:01:54,974 [Task 10.5.17.91:47091] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  400.5815378261169
+2016-12-14 16:01:55,051 [Task 10.5.17.91:47091] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:01:55,052 [Task 10.5.17.91:47091] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:01:55,077 [pool-39-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:01:55,099 [pool-39-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@542c32dd
+2016-12-14 16:02:20,142 [NioProcessor-2] INFO  c.r.s.t.m.BroadcastPipeListener - Stream: teste ended, removing transform
+2016-12-14 16:02:20,664 [NioProcessor-2] INFO  c.r.cluster.plugin.ClusterPlugin - Remove listing: /liveteste
+2016-12-14 16:02:20,676 [NioProcessor-2] INFO  c.r.cluster.plugin.ClusterPlugin - Removed listing: OriginStreamChecker live:teste
+2016-12-14 16:02:20,689 [NioProcessor-2] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:record-stop c-ip:10.5.23.193 x-sname:9fcfad19-077f-4377-92ed-302a21425616 x-file-name:teste.flv
+2016-12-14 16:02:20,880 [NioProcessor-2] INFO  o.r.m.p.GenericWriterPostProcessor - init: [C:\Users\Lab3_R1\Desktop\red5pro-server-1.4.0-release\red5pro-server-1.4.0.b125-release\webapps\live\streams\teste.flv]
+2016-12-14 16:02:21,183 [pool-37-thread-1] INFO  o.r.m.p.GenericWriterPostProcessor - Data type counts - audio: 866 video: 593 metadata: 1
+2016-12-14 16:02:21,185 [NioProcessor-2] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:unpublish c-ip:10.5.23.193 cs-bytes:2001678 sc-bytes:3676 x-sname:9fcfad19-077f-4377-92ed-302a21425616 x-file-length:40 x-name:teste
+2016-12-14 16:02:21,189 [NioProcessor-2] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:recordstop c-ip:10.5.23.193 cs-bytes:2001678 sc-bytes:3676 x-sname:9fcfad19-077f-4377-92ed-302a21425616 x-file-name:teste.flv x-file-length:40 x-file-size:2001678
+2016-12-14 16:02:21,191 [NioProcessor-2] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.23.193 c-client-id:16
+2016-12-14 16:02:47,536 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 19 current session count: 2
+2016-12-14 16:02:47,537 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:18
+2016-12-14 16:02:47,539 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:02:47,540 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 52.487 seconds.
+2016-12-14 16:03:06,485 [RTSPConnectionChecker-1] WARN  com.red5pro.server.stream.Red5ProIO - Connection 1481738513473 has exceeded the max inactivity threshold  1481738540689
+2016-12-14 16:03:06,493 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 18 current session count: 1
+2016-12-14 16:03:06,501 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:17
+2016-12-14 16:03:06,507 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:03:06,509 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 72.93 seconds.
+2016-12-14 16:03:09,569 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 20 total sessions: 1
+2016-12-14 16:03:09,740 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:03:09,741 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:03:09,742 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:03:09,743 [Task 10.5.17.91:47092] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:03:09,748 [Task 10.5.17.91:47092] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:19
+2016-12-14 16:03:09,748 [Task 10.5.17.91:47092] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:03:09,770 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 20 current session count: 1
+2016-12-14 16:03:09,772 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:19
+2016-12-14 16:03:14,504 [RTMPConnectionExecutor-2] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.23.193 c-client-id:20
+2016-12-14 16:03:14,575 [RTMPConnectionExecutor-3] INFO  c.r.s.t.mpegts.MPEGTransformPlugin - Starting transform for teste  in  /live
+2016-12-14 16:03:14,602 [pool-5-thread-2] INFO  c.r.s.t.m.e.c.SegmentationEngine - Creating engine, 5 items by 6 seconds
+2016-12-14 16:03:14,603 [pool-5-thread-2] INFO  c.r.s.t.m.e.c.m3u8.TSPlaylist - Setting up hls for teste in /live using: memory
+2016-12-14 16:03:14,604 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@5199f153 new: org.red5.server.stream.ClientBroadcastStream@5199f153
+2016-12-14 16:03:14,855 [RTMPConnectionExecutor-1] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:publish c-ip:10.5.23.193 x-sname:cb40c183-8bde-4c21-99e6-740cf0b192d8 x-name:teste
+2016-12-14 16:03:14,861 [RTMPConnectionExecutor-1] INFO  c.i.red5pro.live.Red5ProLive - streamBroadcastStart 
+2016-12-14 16:03:25,880 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 22 total sessions: 1
+2016-12-14 16:03:25,937 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:03:25,938 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:03:25,950 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:03:25,952 [Task 10.5.17.91:47093] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:03:25,955 [Task 10.5.17.91:47093] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:21
+2016-12-14 16:03:25,955 [Task 10.5.17.91:47093] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:03:25,964 [Task 10.5.17.91:47093] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  401.6466238225196
+2016-12-14 16:03:26,030 [Task 10.5.17.91:47093] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:03:26,033 [Task 10.5.17.91:47093] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:03:26,044 [pool-42-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3bdc417
+2016-12-14 16:03:26,079 [pool-42-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:03:34,888 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 23 total sessions: 2
+2016-12-14 16:03:34,940 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:03:34,951 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:03:34,954 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:03:34,963 [Task 10.5.100.130:51732] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:03:34,964 [Task 10.5.100.130:51732] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:22
+2016-12-14 16:03:34,965 [Task 10.5.100.130:51732] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:03:34,979 [Task 10.5.100.130:51732] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  399.22253852949837
+2016-12-14 16:03:35,216 [Task 10.5.100.130:51732] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:03:35,258 [Task 10.5.100.130:51732] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:03:35,298 [pool-43-thread-2] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:03:35,302 [pool-43-thread-2] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3c0ff07f
+2016-12-14 16:04:17,393 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 22 current session count: 2
+2016-12-14 16:04:17,396 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:21
+2016-12-14 16:04:17,397 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:04:17,401 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 51.365 seconds.
+2016-12-14 16:05:01,333 [NioProcessor-35] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Unexpected exception for session: 23
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1104)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-12-14 16:05:01,340 [NioProcessor-35] WARN  c.r.s.stream.rtsp.RTSPMinaIOHandler - Force close - session: 23
+2016-12-14 16:05:01,342 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 23 current session count: 1
+2016-12-14 16:05:01,344 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:22
+2016-12-14 16:05:01,346 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:05:01,347 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 86.088 seconds.
+2016-12-14 16:05:01,351 [NioProcessor-35] INFO  c.r.s.s.rtsp.RTSPMinaConnection - Connection is closed: PONFRBQ0B5FD6
+2016-12-14 16:05:01,362 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 23 current session count: 0
+2016-12-14 16:05:53,274 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 24 total sessions: 1
+2016-12-14 16:05:53,432 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:05:53,440 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:05:53,442 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:05:53,444 [Task 10.5.17.91:47096] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:05:53,448 [Task 10.5.17.91:47096] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:23
+2016-12-14 16:05:53,449 [Task 10.5.17.91:47096] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:05:53,464 [Task 10.5.17.91:47096] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  394.17747814099295
+2016-12-14 16:05:53,601 [Task 10.5.17.91:47096] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:05:53,604 [Task 10.5.17.91:47096] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:05:53,651 [pool-44-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3bffb74b
+2016-12-14 16:05:53,675 [pool-44-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:07:03,792 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 24 current session count: 1
+2016-12-14 16:07:03,794 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:23
+2016-12-14 16:07:03,797 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:07:03,799 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 70.193 seconds.
+2016-12-14 16:07:08,155 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 25 total sessions: 1
+2016-12-14 16:07:08,291 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:08,301 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:08,303 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:08,308 [Task 10.5.17.91:47097] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:08,311 [Task 10.5.17.91:47097] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:24
+2016-12-14 16:07:08,312 [Task 10.5.17.91:47097] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:08,326 [Task 10.5.17.91:47097] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  395.5022954719516
+2016-12-14 16:07:08,731 [Task 10.5.17.91:47097] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:08,731 [Task 10.5.17.91:47097] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:07:08,742 [pool-45-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@51446386
+2016-12-14 16:07:08,808 [pool-45-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:07:10,263 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 25 current session count: 1
+2016-12-14 16:07:10,267 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:24
+2016-12-14 16:07:10,268 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:07:10,270 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 1.538 seconds.
+2016-12-14 16:07:14,114 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 26 total sessions: 1
+2016-12-14 16:07:14,173 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:14,175 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:14,176 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:14,177 [Task 10.5.17.91:47098] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:14,179 [Task 10.5.17.91:47098] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:25
+2016-12-14 16:07:14,181 [Task 10.5.17.91:47098] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:14,204 [Task 10.5.17.91:47098] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  395.69747786927326
+2016-12-14 16:07:14,287 [Task 10.5.17.91:47098] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:14,290 [Task 10.5.17.91:47098] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:07:14,322 [pool-46-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@64f974d0
+2016-12-14 16:07:14,340 [pool-46-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:07:27,573 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 27 total sessions: 2
+2016-12-14 16:07:27,601 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:27,606 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:27,608 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:27,609 [Task 10.5.100.130:51733] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:27,611 [Task 10.5.100.130:51733] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:26
+2016-12-14 16:07:27,615 [Task 10.5.100.130:51733] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:27,624 [Task 10.5.100.130:51733] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  397.1938233887574
+2016-12-14 16:07:27,674 [Task 10.5.100.130:51733] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:27,680 [Task 10.5.100.130:51733] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:07:27,692 [pool-47-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@7de75659
+2016-12-14 16:07:27,763 [pool-47-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:07:54,852 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 27 current session count: 2
+2016-12-14 16:07:54,854 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:26
+2016-12-14 16:07:54,856 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:07:54,857 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 27.175 seconds.
+2016-12-14 16:07:55,891 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 28 total sessions: 2
+2016-12-14 16:07:55,922 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:07:55,923 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:07:55,928 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:07:55,929 [Task 10.5.100.130:51734] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:07:55,931 [Task 10.5.100.130:51734] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:27
+2016-12-14 16:07:55,932 [Task 10.5.100.130:51734] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:55,939 [Task 10.5.100.130:51734] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  395.6114511576987
+2016-12-14 16:07:55,973 [Task 10.5.100.130:51734] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:07:55,978 [Task 10.5.100.130:51734] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:07:56,027 [pool-48-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3f7fd1ec
+2016-12-14 16:07:56,061 [pool-48-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:08:00,029 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 28 current session count: 2
+2016-12-14 16:08:00,030 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:27
+2016-12-14 16:08:00,032 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:08:00,034 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 4.056 seconds.
+2016-12-14 16:08:08,161 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 29 total sessions: 2
+2016-12-14 16:08:08,205 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:08:08,208 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:08:08,210 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:08:08,213 [Task 10.5.100.130:51735] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:08:08,215 [Task 10.5.100.130:51735] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.100.130 c-client-id:28
+2016-12-14 16:08:08,216 [Task 10.5.100.130:51735] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:08:08,229 [Task 10.5.100.130:51735] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  394.6316104950549
+2016-12-14 16:08:08,285 [Task 10.5.100.130:51735] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:08:08,288 [Task 10.5.100.130:51735] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:08:08,336 [pool-49-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:08:08,348 [pool-49-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@1278bf7d
+2016-12-14 16:08:41,521 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 29 current session count: 2
+2016-12-14 16:08:41,523 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.100.130 c-client-id:28
+2016-12-14 16:08:41,525 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:08:41,526 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 33.238 seconds.
+2016-12-14 16:09:32,835 [NioProcessor-35] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 26 current session count: 1
+2016-12-14 16:09:32,844 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:25
+2016-12-14 16:09:32,849 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:09:32,849 [NioProcessor-35] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 138.558 seconds.
+2016-12-14 16:09:52,035 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 30 total sessions: 1
+2016-12-14 16:09:52,259 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:09:52,269 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:09:52,275 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:09:52,277 [Task 10.5.17.91:47099] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:09:52,280 [Task 10.5.17.91:47099] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:29
+2016-12-14 16:09:52,281 [Task 10.5.17.91:47099] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:09:52,301 [Task 10.5.17.91:47099] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  395.219283070486
+2016-12-14 16:09:52,344 [Task 10.5.17.91:47099] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:09:52,346 [Task 10.5.17.91:47099] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:09:52,358 [pool-50-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:09:52,362 [pool-50-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@60f95dbb
+2016-12-14 16:09:54,560 [NioProcessor-33] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 30 current session count: 1
+2016-12-14 16:09:54,564 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:29
+2016-12-14 16:09:54,566 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:09:54,567 [NioProcessor-33] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 2.221 seconds.
+2016-12-14 16:09:58,349 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - Session created id: 31 total sessions: 1
+2016-12-14 16:09:58,407 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - live
+2016-12-14 16:09:58,411 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Here comes a newly connecting device
+2016-12-14 16:09:58,413 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - Global lookup result: live : Scope [name=default, path=, type=GLOBAL, autoStart=true, creationTime=1481737146972, depth=0, enabled=true, running=true]
+2016-12-14 16:09:58,415 [Task 10.5.17.91:47100] INFO  c.r.s.s.rtsp.handlers.OptionHandler - params are live
+2016-12-14 16:09:58,417 [Task 10.5.17.91:47100] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:connect c-ip:10.5.17.91 c-client-id:30
+2016-12-14 16:09:58,418 [Task 10.5.17.91:47100] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:09:58,430 [Task 10.5.17.91:47100] INFO  com.red5pro.server.stream.Red5ProIO - Kbp/s  394.99196929362967
+2016-12-14 16:09:58,479 [Task 10.5.17.91:47100] INFO  c.i.red5pro.live.Red5ProLive - param live
+2016-12-14 16:09:58,481 [Task 10.5.17.91:47100] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberStart 
+2016-12-14 16:09:58,495 [pool-51-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : com.red5pro.server.stream.rtp.handlers.codec.Speex@3a69ba8d
+2016-12-14 16:09:58,528 [pool-51-thread-1] INFO  c.r.s.s.r.handlers.RTPCodecFactory - Returning Codec : m=video 0 RTP/AVP 97a=rtpmap:97 H264/90000a=fmtp:97  profile-level-id=42801f; sprop-parameter-sets=Z0KAH5ZUCg/YCoQAAAMABAAAAwB7gAAGGoAAw1H8Y4wAADDUAAYaj+McO0JE1A==,aM41IA==; packetization-mode=1; 
+2016-12-14 16:11:05,398 [NioProcessor-34] INFO  c.r.s.stream.rtsp.RTSPMinaIOHandler - sessionClosed id: 31 current session count: 1
+2016-12-14 16:11:05,400 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.17.91 c-client-id:30
+2016-12-14 16:11:05,406 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - streamSubscriberClose 
+2016-12-14 16:11:05,407 [NioProcessor-34] INFO  c.i.red5pro.live.Red5ProLive - unknown user watched broadcast teste for 66.926 seconds.
+2016-12-14 16:27:39,261 [NioProcessor-6] INFO  c.r.s.t.m.BroadcastPipeListener - Stream: teste ended, removing transform
+2016-12-14 16:27:39,935 [NioProcessor-6] INFO  c.r.cluster.plugin.ClusterPlugin - Remove listing: /liveteste
+2016-12-14 16:27:39,938 [NioProcessor-6] INFO  c.r.cluster.plugin.ClusterPlugin - Removed listing: OriginStreamChecker live:teste
+2016-12-14 16:27:39,956 [NioProcessor-6] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:record-stop c-ip:10.5.23.193 x-sname:cb40c183-8bde-4c21-99e6-740cf0b192d8 x-file-name:teste.flv
+2016-12-14 16:27:42,797 [NioProcessor-6] INFO  o.r.m.p.GenericWriterPostProcessor - init: [C:\Users\Lab3_R1\Desktop\red5pro-server-1.4.0-release\red5pro-server-1.4.0.b125-release\webapps\live\streams\teste.flv]
+2016-12-14 16:27:44,035 [pool-41-thread-1] INFO  o.r.m.p.GenericWriterPostProcessor - Data type counts - audio: 24115 video: 15172 metadata: 1
+2016-12-14 16:27:44,036 [NioProcessor-6] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:unpublish c-ip:10.5.23.193 cs-bytes:50889348 sc-bytes:5308 x-sname:cb40c183-8bde-4c21-99e6-740cf0b192d8 x-file-length:1469 x-name:teste
+2016-12-14 16:27:44,037 [NioProcessor-6] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:stream x-event:recordstop c-ip:10.5.23.193 cs-bytes:50889348 sc-bytes:5308 x-sname:cb40c183-8bde-4c21-99e6-740cf0b192d8 x-file-name:teste.flv x-file-length:1469 x-file-size:50889348
+2016-12-14 16:27:44,055 [NioProcessor-6] INFO  c.i.red5pro.live.Red5ProLive - W3C x-category:session x-event:disconnect c-ip:10.5.23.193 c-client-id:20

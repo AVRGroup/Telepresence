@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<configuration>
+
+  <jmxConfigurator/>
+
+  <appender class="ch.qos.logback.core.ConsoleAppender" name="CONSOLE">
+    <encoder>
+      <pattern>[%p] [%thread] %logger - %msg%n</pattern>
+    </encoder>
+  </appender>
+   
+  <appender class="ch.qos.logback.core.FileAppender" name="FILE">
+    <file>log/red5.log</file>
+    <append>false</append>
+    <encoder>
+      <pattern>%d{ISO8601} [%thread] %-5level %logger{35} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- General logger messages from minor components -->
+  <appender name="red5pro" class="ch.qos.logback.core.FileAppender">
+    <file>log/red5pro.log</file>
+    <append>false</append>
+    <encoder>
+      <pattern>%date [%thread] %-5level %logger{35} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- This outputs RTSP protocol messages such as SDP provided -->
+  <appender name="rtsp" class="ch.qos.logback.core.FileAppender">
+    <file>log/rtsp.log</file>
+    <append>false</append>
+    <encoder>
+      <pattern>%date [%thread] %-5level %logger{35} - %msg%n</pattern>
+    </encoder>
+  </appender>
+   
+  <root level="INFO">
+    <appender-ref ref="CONSOLE"/>
+    <appender-ref ref="FILE"/>    
+  </root>
+
+  <!-- Package level log setting for most all pro classes.
+  -->
+  <logger name="com.red5pro" level="INFO">
+    <appender-ref ref="red5pro"/>
+  </logger>
+
+  <!-- RTSP IO debugging -->
+  <!-- in info, All RTSP stream packages describe minimal about sream creation and closing.
+  In debug, it they log the scope names, looking them up, connecting them to scopes.
+  In trace mode, we log out every message incoming. -->
+  <logger name="com.red5pro.server.stream.rtsp" level="INFO">
+    <appender-ref ref="rtsp"/>
+  </logger>
+
+  <!-- HLS debugging --> 
+  <logger name="com.red5pro.stream.transform" level="INFO"/>
+  
+  <!-- Cluster debugging --> 
+  <logger name="com.red5pro.cluster.plugin" level="INFO"/>
+  
+   <!-- Auto-scale debugging --> 
+  <logger name="com.red5pro.clustering.autoscale" level="INFO"/>
+  
+  <!-- Video related decoding and encoding messages for RTP serialization 
+  In debug mode, this will log packet types. and syntax errors-->
+  <logger name="com.red5pro.server.stream.rtp.handlers.codec.H264" level="OFF"/>
+  
+  <!-- Logger for debugging rtsp over TCP 
+  In debug mode, this will log out channel messages received. Trace mode, will log out parsing tcp packets.-->
+  <logger name="com.red5pro.server.stream.rtsp.handlers.TCPTransportHandler" level="OFF"/>
+  
+  <!--  Session level logger for RTSP connections 
+    This will log out notify messages being written to an rtsp connection.-->
+  <logger name="com.red5pro.server.stream.rtsp.RTSPMinaConnection" level="INFO"/>
+  
+  <!-- Reading packet types and channels to determing which codec should handle it.
+  IN debug mode, it will log media packet channles received, and out of band messages such as net connection call. -->
+  <logger name="com.red5pro.server.stream.rtp.Packet" level="OFF"/>
+  
+  <!-- User story logging related to streaming media uostream and downstream. 
+  IN debug mode it will tell a detailed story about setting up a published stream.
+  In info mode it will log the highlights of the publish stream lifecycle -->
+  <logger name="com.red5pro.server.stream.rtsp.RTSPHandler" level="INFO"/>
+  
+  <!-- Logger for looking up resources and creating SDP responses. 
+  IN debug mode, it will expand upon the user story for the RTSPHandler-->
+  <logger name="com.red5pro.server.stream.Red5ProIO" level="INFO"/>
+  
+  <!-- Open source loggers -->
+  <logger name="org.red5.codec" level="OFF"/>
+  <logger name="org.red5.io" level="OFF"/>
+  <logger name="org.red5.server.BaseConnection" level="OFF"/>
+  <logger name="org.red5.server.Context" level="OFF"/>
+  <logger name="org.red5.server.api.Red5" level="OFF"/>
+  <logger name="org.red5.server.net" level="OFF"/>
+  <logger name="org.red5.server.scope.WebScope" level="OFF"/>
+  <logger name="org.red5.server.service" level="INFO"/>
+  <logger name="org.red5.server.service.ServiceInvoker" level="OFF"/>
+  <logger name="org.red5.server.stream" level="OFF"/>
+  <logger name="org.red5.server.tomcat" level="OFF"/>
+  <logger name="org.red5.spring" level="WARN"/>
+  <logger name="org.apache" level="OFF"/>
+  <logger name="org.apache.jasper" level="WARN"/>
+  <logger name="org.quartz" level="OFF"/>
+  <logger name="org.spring" level="OFF"/>
+  <logger name="org.springframework" level="OFF"/>
+</configuration>

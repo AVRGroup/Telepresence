@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:50 -0200] "GET /live/ HTTP/1.1" 200 19896
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:50 -0200] "GET /live/css/main.css HTTP/1.1" 200 5739
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:50 -0200] "GET /live/images/red5pro_logo.svg HTTP/1.1" 200 3370
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:50 -0200] "GET /live/images/red5pro_live_streaming.png HTTP/1.1" 200 70023
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:50 -0200] "GET /live/images/email.png HTTP/1.1" 200 1106
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:51 -0200] "GET /favicon.ico HTTP/1.1" 200 1150
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:58 -0200] "GET /live/broadcast.jsp?host=10.5.23.193 HTTP/1.1" 200 23096
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:58 -0200] "GET /live/images/red5pro_live_broadcast.png HTTP/1.1" 200 126669
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:58 -0200] "GET /live/swf/swfobject.js HTTP/1.1" 200 25574
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:07:59 -0200] "GET /live/Broadcaster.swf HTTP/1.1" 200 641452
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:13:08:03 -0200] "GET /live/broadcast.jsp?host=10.5.23.193 HTTP/1.1" 200 23096
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:16:42:55 -0200] "GET /live/broadcast.jsp?host=10.5.23.193 HTTP/1.1" 200 23096
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:16:42:58 -0200] "GET /favicon.ico HTTP/1.1" 200 1150
+0:0:0:0:0:0:0:1 - - [23/Nov/2016:17:00:45 -0200] "GET /live/broadcast.jsp?host=10.5.23.193 HTTP/1.1" 200 23096

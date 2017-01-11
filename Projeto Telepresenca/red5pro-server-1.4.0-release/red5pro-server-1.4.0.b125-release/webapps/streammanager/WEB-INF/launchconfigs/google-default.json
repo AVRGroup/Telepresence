@@ -1,0 +1,25 @@
+{
+  "launchconfig": {
+    "name": "google-default",
+    "description": "This is a sample launch configuration for google compute",
+    "image": "{red5pro-image-id}",
+    "instanceType": "n1-standard-2",
+    "connectionCapacity": "1000",
+    "properties": {
+      "property": [
+        {
+          "name": "property-name",
+          "value": "property-value"
+        }
+      ]
+    },
+    "metadata": {
+      "meta": [
+        {
+          "key": "meta-name",
+          "value": "meta-value"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+25391 INFO  com.red5pro.media.storage.CloudstoragePlugin - Set valid license: false
+25391 INFO  com.red5pro.media.storage.CloudstoragePlugin - Starting Red5 Professional, cloudstorage version 1.0.9-SNAPSHOT - ${buildNumber} (on: 10.07.2016 14:41)
+25391 DEBUG com.red5pro.media.storage.CloudstoragePlugin - Start with activation context: org.springframework.context.support.FileSystemXmlApplicationContext@31000e60: startup date [Wed Dec 14 15:39:07 BRST 2016]; root of context hierarchy
+25500 DEBUG com.red5pro.media.storage.CloudstoragePlugin - Properties: {ffmpeg.template=%s -y -async 1 -i %s -acodec aac -b:a 128k -ar 44100 -strict -2 -vcodec libx264 -pix_fmt yuv420p -profile:v baseline -level 3.0 %s, gs.access.key=YOUR_GOOGLE_STORAGE_ACCESS_KEY, aws.access.key=YOUR_AWS_ACCESS_KEY, gs.bucket.name=red5provod, aws.secret.access.key=YOUR_AWS_SECRET_ACCESS_KEY, gs.secret.access.key=YOUR_GOOGLE_STORAGE_SECRET_ACCESS_KEY, ffmpeg.path=/usr/bin/ffmpeg, aws.bucket.name=red5provod, aws.bucket.location=US, services=com.red5pro.media.storage.s3.S3Uploader,com.red5pro.media.storage.s3.S3BucketLister, max.transcode.minutes=5, streams.dir=/tmp/}
+25500 DEBUG com.red5pro.media.storage.CloudstoragePlugin - Registering service: com.red5pro.media.storage.s3.S3Uploader
+25563 DEBUG com.red5pro.media.storage.CloudstoragePlugin - Registering service: com.red5pro.media.storage.s3.S3BucketLister
+25563 DEBUG com.red5pro.media.storage.CloudstoragePlugin - Registered services: {S3BucketLister=com.red5pro.media.storage.s3.S3BucketLister@5240b51, S3Uploader=com.red5pro.media.storage.s3.S3Uploader@7320c37}
+906374 INFO  com.red5pro.media.storage.CloudstoragePlugin - Set valid license: false

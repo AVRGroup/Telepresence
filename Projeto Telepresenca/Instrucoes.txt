@@ -1,12 +1,13 @@
 Como colocar o servidor online?
-
-- Abra o terminal do Windows nessa pasta e digite o comando "node sendservernum.js" (servidor para sensor) ou "node sendserverchar.js"(servidor para botıes).
-Se a conex„o for aberta com sucesso, as informaÁıes da conex„o aparecer„o no terminal.
-Caso a conex„o falhe, verifique no codigo do servidor se est· tentando acessar a porta correta(Recomendo usar o Notepad++). 
-N„o delete a pasta "node_modules", pois ela possui componentes necess·rios para o funcionamento do servidor.
+- Acesse o arquivo dos servidores (sendservernum.js e sendserverchar.js) e troque o IP da variavel "host" (se encontra no final do arquivo) pelo IP da sua internet (Endere√ßo IPv4). Altere a porta (o codigo atual usa a porta 3000) somente se ela ja estiver sendo usada por alguma outra aplica√ß√£o.
+- Abra o terminal do Windows nessa pasta e digite o comando "node sendservernum.js" (servidor para sensor) ou "node sendserverchar.js"(servidor para bot√µes).
+Se a conex√£o for aberta com sucesso, as informa√ß√µes da conex√£o aparecer√£o no terminal.
+Caso a conex√£o falhe, verifique no codigo do servidor se est√° tentando acessar a porta correta(Recomendo usar o Notepad++). 
+N√£o delete a pasta "node_modules", pois ela possui componentes necess√°rios para o funcionamento do servidor.
 ----------------------------------------------------------------------------------------------------------------------------------------
 Os codigos arduino para controle dos motores se encontram nas pastas "SensorControl" e "ButtonControl".
 
-Os aplicativos est„o nas pastas "SendSensor" e "SendButtons".
+Os aplicativos est√£o nas pastas "SendSensor" e "SendButtons".
+Para que os aplicativos funcionem corretamente, √© necess√°rio que o IP colocado nos arquivos dos servidores tamb√©m seja colocado na classe "Envio" existente nos dois aplicativos.
 
-Para maiores informaÁıes sobre esses dois, veja comentarios dentro do prÛrpio codigo.
+Para maiores informa√ß√µes sobre esses dois, veja comentarios dentro do pr√≥rpio codigo.

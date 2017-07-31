@@ -44,9 +44,6 @@ Caso ainda não tenha configurado uma variável de ambiente para o java siga o t
  
  -Modificado esses endereços, basta conectar um celular ao computador e instalar o app clicando em Run na parte superior da tela.
 ----------------------------------------------------------------------------------------------------------------------------------------
-O codigo arduino para controle dos motores se encontra na pasta "SensorControl".
 
-Os aplicativos estão nas pastas "SendSensor" e "SendButtons".
-Para que os aplicativos funcionem corretamente, é necessário que o IP colocado nos arquivos dos servidores também seja colocado na classe "Envio" existente nos dois aplicativos.
 
-Para maiores informações sobre esses dois, veja comentarios dentro do prórpio codigo.
+Para maiores informações sobre o app, veja comentarios dentro do prórpio codigo.

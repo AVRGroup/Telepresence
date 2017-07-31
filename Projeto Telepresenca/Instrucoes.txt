@@ -1,11 +1,50 @@
-Como colocar o servidor online?
-- Acesse o arquivo dos servidores (sendservernum.js e sendserverchar.js) e troque o IP da variavel "host" (se encontra no final do arquivo) pelo IP da sua internet (Endereço IPv4). Altere a porta (o codigo atual usa a porta 3000) somente se ela ja estiver sendo usada por alguma outra aplicação.
-- Abra o terminal do Windows nessa pasta e digite o comando "node sendservernum.js" (servidor para sensor) ou "node sendserverchar.js"(servidor para botões).
+--------------------INSTALAÇÃO DO SISTEMA--------------------------
+Programas necessários:
+-Android Studio
+-Open BroadCaster Software (OBS Studio)
+-Arduino
+-Node JS
+
+Configurando o Arduino:
+
+-Acesse a pasta Sensor Control e aba o arquivo SensorControl.ino.
+-Verifique se o arduino está corretamento conectado no computador e qual a porta de conexão e caregue o código no arduino.
+
+Inicializando o servidor de transferencia de orientações:
+
+- Acesse o arquivo do servidor (dados.js) e modifique na linha comentada por "//ESCOLHER A PORTA" digite a porta que seu arduino está conectada ao computador ( Ex: "COM6"), você pode adquirir essa informação acessando o gerenciador de dispositivos e buscando pelo arduino na seção "Portas".
+
+- Abra o terminal nessa pasta e digite o comando "node dados.js" para iniciar o servidor de transferencia de dados.
+
 Se a conexão for aberta com sucesso, as informações da conexão aparecerão no terminal.
 Caso a conexão falhe, verifique no codigo do servidor se está tentando acessar a porta correta(Recomendo usar o Notepad++). 
 Não delete a pasta "node_modules", pois ela possui componentes necessários para o funcionamento do servidor.
+
+Inicializando o servidor de streaming:
+
+-Certifique-se de ter a versão mais recente do java instalado em seu computador.
+
+Caso ainda não tenha configurado uma variável de ambiente para o java siga o tutorial abaixo:
+    -Computador > propriedades > configurações avançadas do sistema > Variáveis de ambiente (na aba "Avançado").
+    -Abaixo da tela onde estão todas as "Variáveis de Sistema" clique em "Novo" e coloque os seguintes dados
+      Nome da Variavel : JAVA_HOME
+      Endereço da Variavel : Local onde seu java está instalado (Ex: "C:\Program Files\Java\jdk1.8.0_131" )
+ 
+ -Configurada a variável de ambiente basta acessar a pasta red5pro-server e usar o "red5.bat" e esperar até que o servidor esteja online.
+ -Abra o OBS, vá em configurações e na aba Stream digite em URL o endereço do servidor de Stream (http://<Seu-IP>/live) e abaixo em Chave digite um nome para a stream e salve.
+ -Clicando em "Iniciar Transmissão", verifique se uma caixa verde aparece no canto  inferior direito da tela, se sim  a Stream ja esterá sendo enviada para o servidor. Caso queira modificações no video que está sendo enviado, o OBS possui várias configurações disponíveis sinta-se livre para usá-las.
+ 
+ Configurando e Instalando o APP:
+ 
+ -Abra o Android Studio, selecione o projeto "CardBoard Version" e aguarde até que tudo esteja carregado.
+ -Acesse o MainActivity.java (Na barra a esquerda clique em Project > CardBoard Version > app > src > java > MainActivity.java).
+ -Procure pela função "public void starCamera()" e modifique o local comentado por "Coloque o endereço de sua streaming" para
+ "rtmp://<seu-ip>/live/chave".
+ -Um pouco acima no código há uma outra linha com o comentario "Endereço do Servidor", modifique-a com seu endereço (http://<seu-ip>:porta).
+ 
+ -Modificado esses endereços, basta conectar um celular ao computador e instalar o app clicando em Run na parte superior da tela.
 ----------------------------------------------------------------------------------------------------------------------------------------
-Os codigos arduino para controle dos motores se encontram nas pastas "SensorControl" e "ButtonControl".
+O codigo arduino para controle dos motores se encontra na pasta "SensorControl".
 
 Os aplicativos estão nas pastas "SendSensor" e "SendButtons".
 Para que os aplicativos funcionem corretamente, é necessário que o IP colocado nos arquivos dos servidores também seja colocado na classe "Envio" existente nos dois aplicativos.

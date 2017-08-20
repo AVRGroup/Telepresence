@@ -7,8 +7,10 @@ Programas necessários:
 
 Configurando o Arduino:
 
+-Caso você não possua conhecimento algum de montagem do arduino, recomendo que procure instruções no site (www.arduino.cc) ou algum video no youtube.
+-Para o nosso caso a montagem é simples e o mais importante é a conexão dos pinos de  envio de dados do arduino para os motores, o pino 6 deve ser conectado ao motor servo responsavel pela movimentação do angulo Z ( motor base ) e o pino 7 deve ser conectado ao motor servo responsavel pela movimentação no angulo Y (motor superior ).
 -Acesse a pasta Sensor Control e aba o arquivo SensorControl.ino.
--Verifique se o arduino está corretamento conectado no computador e qual a porta de conexão e caregue o código no arduino.
+-Verifique se o arduino está corretamento conectado no computador e qual a porta de conexão com o computador e carregue o código no arduino.
 
 Inicializando o servidor de transferencia de orientações:
 
@@ -31,16 +33,16 @@ Caso ainda não tenha configurado uma variável de ambiente para o java siga o t
       Endereço da Variavel : Local onde seu java está instalado (Ex: "C:\Program Files\Java\jdk1.8.0_131" )
  
  -Configurada a variável de ambiente basta acessar a pasta red5pro-server e usar o "red5.bat" e esperar até que o servidor esteja online.
- -Abra o OBS, vá em configurações e na aba Stream digite em URL o endereço do servidor de Stream (http://<Seu-IP>/live) e abaixo em Chave digite um nome para a stream e salve.
+ -Abra o OBS, vá em configurações e na aba Stream digite em URL o endereço do servidor de Stream (http://<Seu-IP>/live , caso não saiba qual o seu IP, acesse o terminal e digite "ipconfig" em seguida procure pela informação "IPV4", esse é o IP da rede que você está utilizando.)  e abaixo em Chave digite um nome para a stream e salve.
  -Clicando em "Iniciar Transmissão", verifique se uma caixa verde aparece no canto  inferior direito da tela, se sim  a Stream ja esterá sendo enviada para o servidor. Caso queira modificações no video que está sendo enviado, o OBS possui várias configurações disponíveis sinta-se livre para usá-las.
  
  Configurando e Instalando o APP:
  
  -Abra o Android Studio, selecione o projeto "CardBoard Version" e aguarde até que tudo esteja carregado.
  -Acesse o MainActivity.java (Na barra a esquerda clique em Project > CardBoard Version > app > src > java > MainActivity.java).
- -Procure pela função "public void starCamera()" e modifique o local comentado por "Coloque o endereço de sua streaming" para
+ -Procure pela função "public void startCamera()" e modifique o local comentado por "Coloque o endereço de sua streaming" para
  "rtmp://<seu-ip>/live/chave".
- -Um pouco acima no código há uma outra linha com o comentario "Endereço do Servidor", modifique-a com seu endereço (http://<seu-ip>:porta).
+ -Um pouco acima no código há uma outra linha com o comentario "Endereço do Servidor", modifique-a com seu endereço (http://<seu-ip>:3000).
  
  -Modificado esses endereços, basta conectar um celular ao computador e instalar o app clicando em Run na parte superior da tela.
 ----------------------------------------------------------------------------------------------------------------------------------------

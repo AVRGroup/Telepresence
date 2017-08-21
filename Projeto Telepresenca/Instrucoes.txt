@@ -4,6 +4,7 @@ Programas necessários:
 -Open BroadCaster Software (OBS Studio)
 -Arduino
 -Node JS
+-VLC
 
 Configurando o Arduino:
 
@@ -43,6 +44,8 @@ Caso ainda não tenha configurado uma variável de ambiente para o java siga o t
  -Procure pela função "public void startCamera()" e modifique o local comentado por "Coloque o endereço de sua streaming" para
  "rtmp://<seu-ip>/live/chave".
  -Um pouco acima no código há uma outra linha com o comentario "Endereço do Servidor", modifique-a com seu endereço (http://<seu-ip>:3000).
+ -Para finalizar procure uma função chamada InitAudioReturn, uma linha comentada por "set receiver...", abaixo existe uma area com numeros da seguinte maneira "{byte}10, {byte}5,..." troque os numeros "10,5..." pelos numeros do seu IP (IPV4) que ja foi colocado nos lugares anteriores, com isso você estará associando o computador que receberá o retorno de audio do aplicativo.
+ - O audio que é enviado do celular para a maquina sob este IP pode ser então ouvido abrindo o VLC e digitando <seu-ip>:22222 (essa porta pode ser modificada) na parte "Fluxo de Rede".
  
  -Modificado esses endereços, basta conectar um celular ao computador e instalar o app clicando em Run na parte superior da tela.
 ----------------------------------------------------------------------------------------------------------------------------------------
